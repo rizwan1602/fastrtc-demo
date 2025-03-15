@@ -1,14 +1,14 @@
-Here’s an updated `README.md` for your project:
 
 ---
 
 # Gemini Audio-Video Chat 🏃  
 
-A real-time audio and video chat application powered by Google's Gemini AI, Gradio, and WebRTC. This app allows you to have an interactive conversation with Gemini while it sees and hears you.
+A real-time audio and video chat application powered by **Google's Gemini AI**, **Gradio**, **FastRTC**, and **WebRTC**. This app allows you to have an interactive conversation with Gemini while it sees and hears you.
 
 ## Features 🚀  
 
 - **Real-time voice and video chat** with Gemini AI  
+- **Low-latency WebRTC streaming** powered by FastRTC  
 - **Live audio processing** using WebRTC  
 - **Image input support** for enhanced AI interaction  
 - **Secure API key handling** with environment variables  
@@ -25,7 +25,7 @@ A real-time audio and video chat application powered by Google's Gemini AI, Grad
    pip install -r requirements.txt  
    ```
    
-4. Run the application:  
+3. Run the application:  
    ```bash
    python app.py  
    ```
@@ -34,21 +34,21 @@ A real-time audio and video chat application powered by Google's Gemini AI, Grad
 
 - Start the app and enter your API key.  
 - Enable camera and microphone permissions.  
-- Begin speaking with Gemini AI in real time.  
+- Experience **ultra-fast** real-time audio-video chat with Gemini AI.  
 
 ## Dependencies 📦  
 
-- Python 3.8+  
-- Gradio 5.11.0  
-- Gradio WebRTC  
-- Google Generative AI SDK  
+- **Python 3.8+**  
+- **Gradio 5.11.0**  
+- **FastRTC** (WebRTC streaming)  
+- **Google Generative AI SDK**  
 
 ## License 📜  
 
 This project is licensed under the MIT License.  
 
-Check out the [Hugging Face Spaces Configuration Reference](https://huggingface.co/docs/hub/spaces-config-reference) for more details.  
+Check out the [FastRTC Documentation](https://fastrtc.io/docs) and the [Hugging Face Spaces Configuration Reference](https://huggingface.co/docs/hub/spaces-config-reference) for more details.  
 
 ---
 
-Let me know if you need modifications! 🚀
+Let me know if you need any refinements! 🚀
