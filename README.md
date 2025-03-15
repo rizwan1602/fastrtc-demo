@@ -17,19 +17,14 @@ A real-time audio and video chat application powered by Google's Gemini AI, Grad
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/your-repo/gemini-audio-video-chat.git  
+   git clone https://github.com/rizwan1602/fastrtc-demo.git
    cd gemini-audio-video-chat  
    ```
 2. Install dependencies:  
    ```bash
    pip install -r requirements.txt  
    ```
-3. Set up your API key:  
-   - Get a Google API key [here](https://support.google.com/googleapi/answer/6158862?hl=en)  
-   - Export it as an environment variable:  
-     ```bash
-     export GOOGLE_API_KEY="your_api_key_here"
-     ```
+   
 4. Run the application:  
    ```bash
    python app.py  
